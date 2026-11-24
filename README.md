@@ -1,15 +1,18 @@
 # Abrar Faiaz Talukder — Portfolio
 
-A responsive, accessible personal portfolio for Abrar Faiaz Talukder, an undergraduate Software Engineering student at Daffodil International University, Bangladesh.
+A responsive personal portfolio website for Abrar Faiaz Talukder, an undergraduate Software Engineering student at Daffodil International University, Bangladesh.
 
 ## Run locally
-Open `index.html` in any modern browser. The site is static and needs no build tools.
+
+No build tools are required. Open `index.html` in a browser, or serve this folder with a local static server.
 
 ## Customize
-- Update the About, skills, and project sections in `index.html`.
-- Replace the embedded profile image by updating the image data URL in `index.html`.
-- Add your preferred email and social links in the Contact section.
 
-## Deploy with GitHub Pages
-This repository includes a GitHub Actions workflow that deploys the site automatically whenever changes are pushed to `main`.
-In GitHub, open **Settings → Pages** and set **Build and deployment → Source** to **GitHub Actions**.
+- Replace `assets/abrar-faiaz.jpg` to change the profile photo.
+- Update the project section in `index.html` as projects are ready to showcase.
+- Add email and social profile links in the contact section.
+- The GitHub profile link currently points to `https://github.com/usernamegovbd`.
+
+## Deploy
+
+This is a static site and can be deployed with GitHub Pages. In the repository settings, choose **Pages**, select the deployment branch and root folder, and save.
